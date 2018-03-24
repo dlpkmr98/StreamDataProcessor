@@ -1,0 +1,23 @@
+
+Lookup tables details:
+
+database smart_meter
+
+db.smart_meter_user.insertMany([{"meter_id":"101","user_info":"Dilip"},{"meter_id":"102","user_info":"Rohit"}])
+
+db.smart_meter_teriff.insertMany([{"teriff_type":"standard","date_time_slot":"","price":"10"},{"teriff_type":"dyanamic","date_time_slot":"","price":"20"}])
+
+
+
+
+
+incoming data:
+
+101,standard,10-12-2017:10:10:00,100,505050
+102,standard,10-12-2017:10:10:00,200,505050
+103,standard,10-12-2017:10:10:00,100,505051
+104,dynamic,10-12-2017:10:10:00,100,505052
+105,standard,10-12-2017:10:10:00,100,505050
+106,standard,10-12-2017:10:10:00,200,505050
+107,standard,10-12-2017:10:10:00,100,505051
+108,dynamic,10-12-2017:10:10:00,100,505052
